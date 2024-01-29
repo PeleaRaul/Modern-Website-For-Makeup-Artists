@@ -1,0 +1,55 @@
+/* Intellectual Property Notice: © 2023 by Author: Pelea Raul-Daniel. All Rights Reserved.
+    License Nr: PRD-PR-GIT-#0033-2023
+    Created on: © 2023/12/23 03:01PM
+
+    Understanding the License:
+    > P-First Name Initial
+    > R-Last Name Initial
+    > D-Middle Name Initial
+    > PR-Private Work
+    > GIT-GITHUB Integrated Lincese For Private Works (12/12/2023);
+    > #0033-Indentification Number (not important, used to keep track of all my licenses given so far.)
+    > 2023-Creation Year
+
+    Content of Copyright:
+    Do Not Redistribute, Share, Use on any other Domain name. This copy of the website shall be used only
+    by vibekiss.Com and its subdomains (ex: www.vibekiss.com, sub.vibekiss.com)
+    Any Unauthorised Use of The Files may lead to legal dispute. 
+    
+    Any DNS changes are charge free, but must be told beforehand.
+    The content is copyright protected, so I will have to change the
+    domain name under this template/website model! */
+    #loadingScreen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #161616; /* Background color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000; /* Ensure it's on top of other elements */
+        opacity: 1;
+        transition: opacity 1s ease-in-out; /* Smooth transition for opacity */
+    }
+
+    .spinner {
+        border: 8px solid #3498db; /* Spinner color */
+        border-top: 8px solid #fff; /* Background color behind the spinner */
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    #loadingText {
+        font-size: 24px;
+        color: #333; /* Text color */
+        margin-left: 10px;
+    }

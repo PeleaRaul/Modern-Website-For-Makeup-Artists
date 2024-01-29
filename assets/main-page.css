@@ -1,0 +1,76 @@
+/* Intellectual Property Notice: © 2023 by Author: Pelea Raul-Daniel. All Rights Reserved.
+    License Nr: PRD-PR-GIT-#0033-2023
+    Created on: © 2023/12/23 03:01PM
+
+    Understanding the License:
+    > P-First Name Initial
+    > R-Last Name Initial
+    > D-Middle Name Initial
+    > PR-Private Work
+    > GIT-GITHUB Integrated Lincese For Private Works (12/12/2023);
+    > #0033-Indentification Number (not important, used to keep track of all my licenses given so far.)
+    > 2023-Creation Year
+
+    Content of Copyright:
+    Do Not Redistribute, Share, Use on any other Domain name. This copy of the website shall be used only
+    by vibekiss.Com and its subdomains (ex: www.vibekiss.com, sub.vibekiss.com)
+    Any Unauthorised Use of The Files may lead to legal dispute. 
+    
+    Any DNS changes are charge free, but must be told beforehand.
+    The content is copyright protected, so I will have to change the
+    domain name under this template/website model! */  
+    /* Tablet Styles */
+    .main-main {
+        margin-left: 2%; 
+        width: 100vw; 
+        height: 100vh; 
+        display: grid; 
+        place-content: center;
+    }
+    .main-nav-logo {
+        height: 35vh;
+    }
+
+    #changingText {
+        font-size: 40px;
+    }
+    #changingSubText {
+        font-size: 25px; 
+        width: 50vw;
+    }
+    .language {
+        height: 100px;
+    }
+
+    @media only screen and (max-width: 1020px) {
+        .language {
+            height: 80px;
+        }
+        .main-nav-logo {
+            height: 30vh;
+        }
+    }
+      
+    /* Mobile Styles */
+    @media only screen and (max-width: 480px) {
+        #changingText {
+            font-size: 30px;
+        }
+        #changingSubText {
+            font-size: 20px;
+            width: 70vw;
+        }
+        .language {
+            height: 80px;
+        }
+        .main-main {
+            margin-left: 15%; 
+            width: 100vw; 
+            height: 100vh; 
+            display: grid; 
+            place-content: center;
+        }
+        .main-nav-logo {
+            height: 25vh;
+        }
+    }

@@ -1,0 +1,110 @@
+/* Intellectual Property Notice: © 2023 by Author: Pelea Raul-Daniel. All Rights Reserved.
+    License Nr: PRD-PR-GIT-#0033-2023
+    Created on: © 2023/12/23 03:01PM
+
+    Understanding the License:
+    > P-First Name Initial
+    > R-Last Name Initial
+    > D-Middle Name Initial
+    > PR-Private Work
+    > GIT-GITHUB Integrated Lincese For Private Works (12/12/2023);
+    > #0033-Indentification Number (not important, used to keep track of all my licenses given so far.)
+    > 2023-Creation Year
+
+    Content of Copyright:
+    Do Not Redistribute, Share, Use on any other Domain name. This copy of the website shall be used only
+    by vibekiss.Com and its subdomains (ex: www.vibekiss.com, sub.vibekiss.com)
+    Any Unauthorised Use of The Files may lead to legal dispute. 
+    
+    Any DNS changes are charge free, but must be told beforehand.
+    The content is copyright protected, so I will have to change the
+    domain name under this template/website model! */
+
+header {
+    background-image: none;
+    height: 25vh;
+}
+
+.designerlink {
+    text-decoration: none;
+    color: var(--main);
+}
+
+.designerlink:hover {
+    color: var(--white);
+}
+
+.certifications {
+    width: 100vw;
+    display: grid;
+    place-content: center;
+}
+
+.container-cert {
+    width: 100vw;
+}
+
+.cert {
+    height: 320px;
+}
+
+.cert:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+    transition: transform 0.3s ease;
+}
+
+.cert:not(:hover) {
+    transform: scale3d(1, 1, 1);
+    transition: transform 0.3s ease;
+}
+
+/* Media querys for responsiveness on mobile, pc, tablet! */
+/* Other Pc Sizes */
+@media only screen and (max-width: 1534px) {
+    .cert {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 1434px) {
+    .cert {
+        height: 290px;
+    }
+}
+@media only screen and (max-width: 1334px) {
+    .cert {
+        height: 280px;
+    }
+}
+@media only screen and (max-width: 1234px) {
+    .cert {
+        height: 270px;
+    }
+}
+@media only screen and (max-width: 1134px) {
+    .cert {
+        height: 260px;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (max-width: 1020px) {
+    .cert {
+        height: 180px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+    .cert {
+        height: 190px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+    }
+}

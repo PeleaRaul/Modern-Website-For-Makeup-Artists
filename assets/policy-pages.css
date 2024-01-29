@@ -1,0 +1,52 @@
+/* <!-- 
+    Intellectual Property Notice: © 2023 by Author: Pelea Raul-Daniel. All Rights Reserved.
+    License Nr: PRD-PR-GIT-#0033-2023
+    Created on: © 2023/12/23 03:01PM
+
+    Understanding the License:
+    > P-First Name Initial
+    > R-Last Name Initial
+    > D-Middle Name Initial
+    > PR-Private Work
+    > GIT-GITHUB Integrated Lincese For Private Works (12/12/2023);
+    > #0033-Indentification Number (not important, used to keep track of all my licenses given so far.)
+    > 2023-Creation Year
+
+    Content of Copyright:
+    Do Not Redistribute, Share, Use on any other Domain name. This copy of the website shall be used only
+    by vibekiss.Com and its subdomains (ex: www.vibekiss.com, sub.vibekiss.com)
+    Any Unauthorised Use of The Files may lead to legal dispute. 
+    
+    Any DNS changes are charge free, but must be told beforehand.
+    The content is copyright protected, so I will have to change the
+    domain name under this template/website model!
+ --> */
+.policy {
+    width: 70vw;
+}
+
+.policy a {
+    text-decoration: none;
+}
+
+.policy a:hover {
+    color: rgb(187, 161, 76);
+}
+
+.policy h1 {
+    font-size: xx-large;
+    color: white;
+}
+
+.policy h2 {
+    font-size: x-large;
+    color: white;
+}
+
+.policy p {
+    font-size: large;
+}
+
+.policy ul {
+    color: rgb(188, 175, 74);
+}
