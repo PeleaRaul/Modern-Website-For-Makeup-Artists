@@ -43,10 +43,3 @@ Unauthorized use, reproduction, modification, distribution, or republication of 
 For permissions, please contact: [pelearauldaniel@gmail.com]
 
 ---
-
-### ✅ What to do next:
-- Replace `[yourusername]` with your GitHub username.
-- Replace placeholder contact/email links with your real info.
-- Add screenshots if you want to show off your design visually.
-
-Let me know if you want to add a section like FAQs, About Me, or Deployment Instructions!
